@@ -78,6 +78,7 @@ ul {
 }
 
 .hero button {
+  font-family: inherit;
   width: 200px;
   height: 50px;
   background-color: var(--hover-color);
@@ -184,6 +185,7 @@ ul {
 /* Кнопки */
 
 .filters-btn {
+  font-family: inherit;
   width: 128px;
   height: 38px;
   left: 576px;
