@@ -87,6 +87,7 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   color: var(--white-color);
+  cursor: pointer;
 }
 
 /* Особенности */
@@ -191,6 +192,9 @@ ul {
   border-radius: 4px;
   border: none;
   cursor: pointer;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
 }
 
 .filters-btn:hover,
