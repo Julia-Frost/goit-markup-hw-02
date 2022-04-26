@@ -164,12 +164,16 @@ ul {
   color: var(--white-color);
 }
 
-.address-item {
+.address {
   font-style: normal;
+  color: var(--white-color);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--white-color);
+}
+
+.address p:hover {
+  color: var(--hover-color);
 }
 
 .address-item a {
@@ -186,10 +190,7 @@ ul {
 
 .filters-btn {
   font-family: inherit;
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
+  font-weight: 500;
   background: var(--background-color-light);
   border-radius: 4px;
   border: none;
